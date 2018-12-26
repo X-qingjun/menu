@@ -1,0 +1,136 @@
+body,div,span,li,ul,i,button{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+i{font-style: normal;}
+#menu{
+	position: relative;
+	width: 312px;
+	margin: 10px 0 0 10px;
+	background: #fff;
+	color: #333333;
+	font-size: 12px;
+	border: 1px solid #e2e2e3;
+}
+#menu>li{
+	border-bottom: 1px solid #f5f5f5;
+}
+.menu_name{
+	height: 36px;
+	line-height: 36px;
+	padding-left: 25px;
+	background: url(../images/logo.png) no-repeat 8px 11px;
+	border-bottom: 1px solid #f2f2f2;
+}
+li.box>div .icon{
+	float:right;
+	margin-right: 8px;
+}
+div:not(.menu_name){
+	height: 36px;
+	line-height: 36px;
+	padding-left: 8px;
+}
+span{
+	margin-left: 4px;
+	font-size: 10px;
+	color: #888888;
+}
+.erji li{
+	width: 312px;
+	height: 67px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #e8e6e6;
+}
+li.box .erji div{
+	float:left;
+	width: 210px;
+	padding-left: 8px;
+	height: 24px;
+	line-height: 24px;
+}
+li.box  .erji .op{
+	float: right;
+	padding:0;
+	margin-top: 10px;
+	width: 85px;
+	height: 48px;
+	border-left: 1px solid #eee;
+}
+.erji .op button{
+	width: 67px;
+	height: 25px;
+	display: block;
+	outline: none;
+	border: none;
+	color: #fff;
+	line-height: 25px;
+	text-align: center;
+	background: #ff9800;
+	margin: 11px 0 0 8px;
+	border-radius: 3px;
+}
+.erji span{
+	width: 210px;
+	display: block;
+	padding-left: 4px;
+	line-height: 16px;
+	margin-bottom: 6px;
+}
+.erji i:last-child{
+	margin-left: 10px;
+}
+.erji .icon{
+	color: #43b7c5;
+	margin-right: 4px;
+}
+li>ul{
+	display: none;
+}
+.erji li:last-child{
+	border-bottom: 0;
+}
+#menu .zz{
+	height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    z-index: 99999;
+    display: none;
+}
+.zz .layer{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 0;
+    box-shadow: 0 0 4px 1px #fff;
+}
+.new{
+	text-align: center;
+	color: #616161;
+	font-size: 12px;
+}
+.new .icon{
+	margin-left:4px;
+}
+li.box  .erji .e{
+	height: 36px;
+	background: #fff;
+}
+li.box  .erji .e div{
+	width: 304px;
+	height: 36px;
+	background: #fff;
+	line-height: 36px;
+	text-align: center;
+}
